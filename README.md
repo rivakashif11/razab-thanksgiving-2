@@ -37,7 +37,24 @@ This repository contains the email template for **Razab USA's Thanksgiving 2026 
 
 ---
 
-## 3. Campaign & Offer Specs
+## 3. Thanksgiving Themed Borders & Section Styling
+Each section of the email features a distinct, festive border treatment tailored to the Thanksgiving harvest theme while maintaining 100% email client compatibility (Outlook, Apple Mail, Gmail, Yahoo):
+
+1. **Outer Mailbox Envelope:** Ornate double heirloom frame with rich terracotta border and an inner dashed gold stitch (`border: 3px solid #8F544A; outline: 2px dashed #C9A25A;`).
+2. **Top Announcement Strip:** Gilded double gold rule (`border-bottom: 3px double #C9A25A;`).
+3. **Masthead / Navigation:** Dashed terracotta stitch with centered autumn floral leaf ribbon divider (`assets/thanksgiving-divider.png`).
+4. **Hero Video Banner:** Warm dual gilded gradient accent bar (`#8F544A` to `#F7CC83`).
+5. **The Offer Showpiece:** Double-bevel gold frame (`border-top/bottom: 3px double #C9A25A;`) with autumn leaf glyph divider line (`🍂 ✦ 🍁 ✦ 🌾`).
+6. **Brand Story ("Feast Today"):** Vintage parchment card with terracotta pillar accents (`border-left/right: 4px solid #8F544A; border: 2px solid #D9C3A3;`) and dashed gold coupon/facts card.
+7. **Collection Heading:** Laurel and wheat dashed rule (`border-top: 1px dashed #C87F4E; border-bottom: 2px solid #8F544A;`).
+8. **Product Mosaic Grid:** Festive harvest gift cards (`border: 2px solid #DFCEB2;`) with inner dashed sage green coupon tags (`border: 1px dashed #64875D;`).
+9. **Honey Promo Band:** Perforated ticket voucher border (`border-top/bottom: 3px dashed #2F4A35; border-left/right: 6px solid #2F4A35;`).
+10. **Spotlight Feature (Loaf Pans):** Hearthside double border (`border-top/bottom: 3px double #C87F4E;`) with forest green pillar accent (`border-left: 4px solid #2F4A35;`).
+11. **Footer:** Gilded top line with double-stitched gold coupon box (`border: 2px dashed #C9A25A; outline: 1px solid #C9A25A; outline-offset: -4px;`) and dotted divider.
+
+---
+
+## 4. Campaign & Offer Specs
 - **Brand:** Razab USA (Borosilicate Glass Food Storage & Bakeware)
 - **Campaign Title:** Thanksgiving Sale — The Harvest Table
 - **Offer:** **20% OFF** with code **`HARVEST`**
