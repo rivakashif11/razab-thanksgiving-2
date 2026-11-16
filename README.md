@@ -19,7 +19,7 @@ This repository contains the email template for **Razab USA's Thanksgiving 2026 
 ---
 
 ## 2. Template Structure & Sections
-0. **Flanking Aesthetic Borders:** Outer left and right decorative Thanksgiving border columns (`assets/thanksgiving-border-left.jpg` & `assets/thanksgiving-border-right.jpg`) adorned with autumn leaves, ripe pumpkins, and acorns matching the hero section graphics (collapses smoothly on mobile).
+0. **Seamless Integrated Thanksgiving Borders:** Integrated 30px left and right decorative Thanksgiving border columns (`assets/thanksgiving-border-left.jpg` & `assets/thanksgiving-border-right.jpg`) seamlessly framing the 540px content canvas within the **exact 600px total container width** (`30px + 540px + 30px = 600px`). Features feathered inner edge blending into the cream sections with autumn leaves, pumpkins, and acorns.
 1. **Preheader:** Hidden preview text with zwnj padding (`Pull up a chair at The Harvest Table: 20% off every Razab glass container with code HARVEST...`).
 2. **Top Strip:** Deep forest banner (`Thanksgiving Sale · 20% Off · Code HARVEST`).
 3. **Masthead:** Header with Razab logo (`assets/razab-logo.png`), tagline, and navigation links.
