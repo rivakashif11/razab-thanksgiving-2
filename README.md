@@ -26,7 +26,7 @@ This repository contains the email template for **Razab USA's Thanksgiving 2026 
 5. **Gilded Accent Dividers:** 4px gradient separators (`#C87F4E` to `#F7CC83`).
 6. **The Feature Video:** Full-bleed interactive video (`assets/hero sec video 2.mp4` / `assets/hero-sec-video-2.mp4`, 600×338) with autoplay, loop, muted, playsinline, featuring the container opening with glowing "HURRY UP! THANKSGIVING SALE IS LIVE" rising smoke text, and high-res poster fallback (`assets/hero-video-poster.jpg`).
 7. **Brand Story:** "Feast Today. Fresh All Week." story block with three core value badges (*Freezer to oven*, *Airtight seal*, *See every leftover*).
-8. **Product Mosaic:** 2×2 edge-to-edge product grid:
+8. **The Harvest Collection Cards:** 2×2 spacious, elevated product card grid with dedicated margins, rounded corners, soft drop shadow, discount pills, and distinct terracotta "Shop Now →" CTA buttons:
    - **The Host's Set** (30 Pc Glass Food Storage Set — `assets/p-host.jpg`)
    - **The Potluck Carrier** (6500ML Extra Large Container — `assets/p-carry.jpg`)
    - **The Pastry & Pie Keeper** (3900ML Airtight Container — `assets/p-keeper.jpg`)

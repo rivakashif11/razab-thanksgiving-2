@@ -28,6 +28,7 @@
   @media screen {
     .rz-btn-gold:hover { background-color:#FFDFA0 !important; }
     .rz-btn-forest:hover { background-color:#4F6F49 !important; }
+    .rz-btn-terra:hover { background-color:#78453C !important; }
     .rz-link:hover { color:#C87F4E !important; }
   }
 
@@ -35,6 +36,8 @@
     .rz-wrap { width:100% !important; border-radius:0 !important; }
     .rz-fluid { width:100% !important; max-width:100% !important; height:auto !important; }
     .rz-stack { display:block !important; width:100% !important; max-width:100% !important; box-sizing:border-box !important; }
+    .rz-card-col { display:block !important; width:100% !important; max-width:100% !important; margin-bottom:22px !important; }
+    .rz-spacer-col { display:none !important; }
     .rz-px { padding-left:20px !important; padding-right:20px !important; }
     .rz-offer { padding:36px 22px 40px 22px !important; }
     .rz-photo-cell { padding:0 0 28px 0 !important; text-align:center !important; }
@@ -168,93 +171,215 @@
 
     <!-- ===================== 6. COLLECTION HEADING ===================== -->
     <tr>
-      <td align="center" bgcolor="#FAF7F2" style="background-color:#FAF7F2; padding:0 24px 28px 24px;">
-        <p style="margin:0 0 8px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:15px; line-height:20px; color:#C87F4E;">Curated for the table</p>
-        <h2 class="rz-h2" style="margin:0; font-family:'Playfair Display',Georgia,serif; font-size:36px; line-height:42px; font-weight:600; letter-spacing:-0.012em; color:#8F544A;">The Harvest Collection</h2>
+      <td align="center" bgcolor="#FAF7F2" style="background-color:#FAF7F2; padding:36px 24px 24px 24px;">
+        <p style="margin:0 0 6px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:15px; line-height:20px; color:#C87F4E;">Curated for the table</p>
+        <h2 class="rz-h2" style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:36px; line-height:42px; font-weight:600; letter-spacing:-0.012em; color:#8F544A;">The Harvest Collection</h2>
+        <div style="width:48px; height:2px; background-color:#C87F4E; margin:0 auto;"></div>
       </td>
     </tr>
 
-    <!-- ===================== 7. PRODUCT MOSAIC (edge to edge) ===================== -->
+    <!-- ===================== 7. PRODUCT MOSAIC (spacious cards) ===================== -->
     <tr>
-      <td bgcolor="#EFE3CC" style="background-color:#EFE3CC; padding:0;">
+      <td bgcolor="#FAF7F2" style="background-color:#FAF7F2; padding:0 20px 40px 20px;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 
           <!-- Row 1 -->
           <tr>
-            <td width="50%" valign="top" style="width:50%; border-right:1px solid #EFE3CC; border-bottom:2px solid #EFE3CC;" bgcolor="#FFFFFF">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr><td style="line-height:0; font-size:0;">
-                  <a href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="display:block;">
-                    <img src="assets/p-host.jpg" width="299" height="399" alt="Razab 30 Pc Glass Food Storage Container Set" class="rz-fluid" style="width:100%; max-width:299px; height:auto; display:block;">
-                  </a>
-                </td></tr>
-                <tr><td class="rz-cap" align="left" style="padding:18px 20px 24px 20px;">
-                  <p style="margin:0 0 3px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:14px; line-height:18px; color:#C87F4E;">The Host's Set</p>
-                  <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:52px; font-family:'Playfair Display',Georgia,serif; font-size:20px; line-height:26px; font-weight:600; color:#8F544A;">
-                    <a href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="color:#8F544A; text-decoration:none;">30 Pc Glass Container Set</a>
-                  </h3>
-                  <p class="rz-cd" style="margin:0 0 12px 0; min-height:60px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; line-height:20px; color:#5A3D36;">Fifteen containers, fifteen airtight lids, endless Thanksgiving leftovers.</p>
-                  <p style="margin:0 0 12px 0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12px; line-height:16px; font-weight:700; color:#64875D;">20% off with HARVEST</p>
-                  <a class="rz-link" href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; font-weight:700; color:#8F544A; text-decoration:underline;">Shop now</a>
-                </td></tr>
+            <!-- Card 1 -->
+            <td class="rz-card-col" width="268" valign="top" style="width:268px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="background-color:#FFFFFF; border-radius:10px; overflow:hidden; border:1px solid #E6D8C3; box-shadow:0 6px 18px rgba(90,61,54,0.07);">
+                <tr>
+                  <td style="line-height:0; font-size:0; background-color:#F5EFE6;">
+                    <a href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="display:block;">
+                      <img src="assets/p-host.jpg" width="268" height="358" alt="Razab 30 Pc Glass Food Storage Container Set" class="rz-fluid" style="width:100%; max-width:268px; height:auto; display:block; border-top-left-radius:9px; border-top-right-radius:9px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="rz-cap" align="left" style="padding:18px 18px 22px 18px;">
+                    <p style="margin:0 0 4px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:13px; line-height:17px; color:#C87F4E;">The Host's Set</p>
+                    <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:48px; font-family:'Playfair Display',Georgia,serif; font-size:19px; line-height:24px; font-weight:600; color:#8F544A;">
+                      <a href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="color:#8F544A; text-decoration:none;">30 Pc Glass Container Set</a>
+                    </h3>
+                    <p class="rz-cd" style="margin:0 0 14px 0; min-height:54px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12.5px; line-height:19px; color:#5A3D36;">Fifteen containers, fifteen airtight lids, endless Thanksgiving leftovers.</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px 0;">
+                      <tr>
+                        <td bgcolor="#F2F6F1" style="background-color:#F2F6F1; border:1px solid #C4D9C0; border-radius:12px; padding:4px 10px;">
+                          <span style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11px; line-height:14px; font-weight:700; color:#2F4A35; letter-spacing:0.02em;">🍂 20% OFF WITH HARVEST</span>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td align="center">
+                          <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="height:38px;v-text-anchor:middle;width:232px;" arcsize="14%" stroke="f" fillcolor="#8F544A">
+                            <w:anchorlock/>
+                            <center style="color:#FAF7F2;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:bold;letter-spacing:1px;">SHOP NOW</center>
+                          </v:roundrect>
+                          <![endif]-->
+                          <!--[if !mso]><!-->
+                          <a class="rz-btn-terra" href="https://razab.com/collections/all?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_host" style="display:block; width:100%; box-sizing:border-box; background-color:#8F544A; color:#FAF7F2; text-align:center; padding:11px 16px; border-radius:6px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; box-shadow:0 2px 6px rgba(143,84,74,0.25);">
+                            Shop Now &nbsp;→
+                          </a>
+                          <!--<![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
               </table>
             </td>
-            <td width="50%" valign="top" style="width:50%; border-left:1px solid #EFE3CC; border-bottom:2px solid #EFE3CC;" bgcolor="#FFFFFF">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr><td style="line-height:0; font-size:0;">
-                  <a href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="display:block;">
-                    <img src="assets/p-carry.jpg" width="299" height="399" alt="Razab 6500ML Extra Large Food Storage Container with handle lid" class="rz-fluid" style="width:100%; max-width:299px; height:auto; display:block;">
-                  </a>
-                </td></tr>
-                <tr><td class="rz-cap" align="left" style="padding:18px 20px 24px 20px;">
-                  <p style="margin:0 0 3px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:14px; line-height:18px; color:#C87F4E;">The Potluck Carrier</p>
-                  <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:52px; font-family:'Playfair Display',Georgia,serif; font-size:20px; line-height:26px; font-weight:600; color:#8F544A;">
-                    <a href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="color:#8F544A; text-decoration:none;">6500ML Extra Large Container</a>
-                  </h3>
-                  <p class="rz-cd" style="margin:0 0 12px 0; min-height:60px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; line-height:20px; color:#5A3D36;">A sturdy handle-top lid for carrying casseroles and sides to family dinner.</p>
-                  <p style="margin:0 0 12px 0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12px; line-height:16px; font-weight:700; color:#64875D;">20% off with HARVEST</p>
-                  <a class="rz-link" href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; font-weight:700; color:#8F544A; text-decoration:underline;">Shop now</a>
-                </td></tr>
+
+            <!-- Spacer -->
+            <td class="rz-spacer-col" width="24" style="width:24px; font-size:0; line-height:0;">&nbsp;</td>
+
+            <!-- Card 2 -->
+            <td class="rz-card-col" width="268" valign="top" style="width:268px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="background-color:#FFFFFF; border-radius:10px; overflow:hidden; border:1px solid #E6D8C3; box-shadow:0 6px 18px rgba(90,61,54,0.07);">
+                <tr>
+                  <td style="line-height:0; font-size:0; background-color:#F5EFE6;">
+                    <a href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="display:block;">
+                      <img src="assets/p-carry.jpg" width="268" height="358" alt="Razab 6500ML Extra Large Food Storage Container with handle lid" class="rz-fluid" style="width:100%; max-width:268px; height:auto; display:block; border-top-left-radius:9px; border-top-right-radius:9px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="rz-cap" align="left" style="padding:18px 18px 22px 18px;">
+                    <p style="margin:0 0 4px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:13px; line-height:17px; color:#C87F4E;">The Potluck Carrier</p>
+                    <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:48px; font-family:'Playfair Display',Georgia,serif; font-size:19px; line-height:24px; font-weight:600; color:#8F544A;">
+                      <a href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="color:#8F544A; text-decoration:none;">6500ML Extra Large Container</a>
+                    </h3>
+                    <p class="rz-cd" style="margin:0 0 14px 0; min-height:54px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12.5px; line-height:19px; color:#5A3D36;">A sturdy handle-top lid for carrying casseroles and sides to family dinner.</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px 0;">
+                      <tr>
+                        <td bgcolor="#F2F6F1" style="background-color:#F2F6F1; border:1px solid #C4D9C0; border-radius:12px; padding:4px 10px;">
+                          <span style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11px; line-height:14px; font-weight:700; color:#2F4A35; letter-spacing:0.02em;">🍂 20% OFF WITH HARVEST</span>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td align="center">
+                          <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="height:38px;v-text-anchor:middle;width:232px;" arcsize="14%" stroke="f" fillcolor="#8F544A">
+                            <w:anchorlock/>
+                            <center style="color:#FAF7F2;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:bold;letter-spacing:1px;">SHOP NOW</center>
+                          </v:roundrect>
+                          <![endif]-->
+                          <!--[if !mso]><!-->
+                          <a class="rz-btn-terra" href="https://razab.com/products/6500-ml-large-food-storage-container?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_carry" style="display:block; width:100%; box-sizing:border-box; background-color:#8F544A; color:#FAF7F2; text-align:center; padding:11px 16px; border-radius:6px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; box-shadow:0 2px 6px rgba(143,84,74,0.25);">
+                            Shop Now &nbsp;→
+                          </a>
+                          <!--<![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
               </table>
             </td>
           </tr>
 
+          <!-- Row Spacer -->
+          <tr>
+            <td colspan="3" height="24" style="height:24px; font-size:0; line-height:0;">&nbsp;</td>
+          </tr>
+
           <!-- Row 2 -->
           <tr>
-            <td width="50%" valign="top" style="width:50%; border-right:1px solid #EFE3CC;" bgcolor="#FFFFFF">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr><td style="line-height:0; font-size:0;">
-                  <a href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="display:block;">
-                    <img src="assets/p-keeper.jpg" width="299" height="399" alt="Razab 3900ML Airtight Container" class="rz-fluid" style="width:100%; max-width:299px; height:auto; display:block;">
-                  </a>
-                </td></tr>
-                <tr><td class="rz-cap" align="left" style="padding:18px 20px 24px 20px;">
-                  <p style="margin:0 0 3px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:14px; line-height:18px; color:#C87F4E;">The Pastry &amp; Pie Keeper</p>
-                  <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:52px; font-family:'Playfair Display',Georgia,serif; font-size:20px; line-height:26px; font-weight:600; color:#8F544A;">
-                    <a href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="color:#8F544A; text-decoration:none;">3900ML Airtight Container</a>
-                  </h3>
-                  <p class="rz-cd" style="margin:0 0 12px 0; min-height:60px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; line-height:20px; color:#5A3D36;">Keep pecan bars, spiced cookies, and rolls bakery-fresh for days.</p>
-                  <p style="margin:0 0 12px 0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12px; line-height:16px; font-weight:700; color:#64875D;">20% off with HARVEST</p>
-                  <a class="rz-link" href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; font-weight:700; color:#8F544A; text-decoration:underline;">Shop now</a>
-                </td></tr>
+            <!-- Card 3 -->
+            <td class="rz-card-col" width="268" valign="top" style="width:268px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="background-color:#FFFFFF; border-radius:10px; overflow:hidden; border:1px solid #E6D8C3; box-shadow:0 6px 18px rgba(90,61,54,0.07);">
+                <tr>
+                  <td style="line-height:0; font-size:0; background-color:#F5EFE6;">
+                    <a href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="display:block;">
+                      <img src="assets/p-keeper.jpg" width="268" height="358" alt="Razab 3900ML Airtight Container" class="rz-fluid" style="width:100%; max-width:268px; height:auto; display:block; border-top-left-radius:9px; border-top-right-radius:9px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="rz-cap" align="left" style="padding:18px 18px 22px 18px;">
+                    <p style="margin:0 0 4px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:13px; line-height:17px; color:#C87F4E;">The Pastry &amp; Pie Keeper</p>
+                    <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:48px; font-family:'Playfair Display',Georgia,serif; font-size:19px; line-height:24px; font-weight:600; color:#8F544A;">
+                      <a href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="color:#8F544A; text-decoration:none;">3900ML Airtight Container</a>
+                    </h3>
+                    <p class="rz-cd" style="margin:0 0 14px 0; min-height:54px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12.5px; line-height:19px; color:#5A3D36;">Keep pecan bars, spiced cookies, and rolls bakery-fresh for days.</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px 0;">
+                      <tr>
+                        <td bgcolor="#F2F6F1" style="background-color:#F2F6F1; border:1px solid #C4D9C0; border-radius:12px; padding:4px 10px;">
+                          <span style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11px; line-height:14px; font-weight:700; color:#2F4A35; letter-spacing:0.02em;">🍂 20% OFF WITH HARVEST</span>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td align="center">
+                          <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="height:38px;v-text-anchor:middle;width:232px;" arcsize="14%" stroke="f" fillcolor="#8F544A">
+                            <w:anchorlock/>
+                            <center style="color:#FAF7F2;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:bold;letter-spacing:1px;">SHOP NOW</center>
+                          </v:roundrect>
+                          <![endif]-->
+                          <!--[if !mso]><!-->
+                          <a class="rz-btn-terra" href="https://razab.com/products/3900ml-large-glass-food-storage-container-with-airtight-lid?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_keeper" style="display:block; width:100%; box-sizing:border-box; background-color:#8F544A; color:#FAF7F2; text-align:center; padding:11px 16px; border-radius:6px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; box-shadow:0 2px 6px rgba(143,84,74,0.25);">
+                            Shop Now &nbsp;→
+                          </a>
+                          <!--<![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
               </table>
             </td>
-            <td width="50%" valign="top" style="width:50%; border-left:1px solid #EFE3CC;" bgcolor="#FFFFFF">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr><td style="line-height:0; font-size:0;">
-                  <a href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="display:block;">
-                    <img src="assets/p-loaf.jpg" width="299" height="399" alt="Razab Glass Loaf Pans with Lids" class="rz-fluid" style="width:100%; max-width:299px; height:auto; display:block;">
-                  </a>
-                </td></tr>
-                <tr><td class="rz-cap" align="left" style="padding:18px 20px 24px 20px;">
-                  <p style="margin:0 0 3px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:14px; line-height:18px; color:#C87F4E;">The Holiday Baker</p>
-                  <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:52px; font-family:'Playfair Display',Georgia,serif; font-size:20px; line-height:26px; font-weight:600; color:#8F544A;">
-                    <a href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="color:#8F544A; text-decoration:none;">Glass Loaf Pans with Lids</a>
-                  </h3>
-                  <p class="rz-cd" style="margin:0 0 12px 0; min-height:60px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; line-height:20px; color:#5A3D36;">Bake pumpkin bread, snap on the lid, and bring it warm to the table.</p>
-                  <p style="margin:0 0 12px 0; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12px; line-height:16px; font-weight:700; color:#64875D;">20% off with HARVEST</p>
-                  <a class="rz-link" href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:13px; font-weight:700; color:#8F544A; text-decoration:underline;">Shop now</a>
-                </td></tr>
+
+            <!-- Spacer -->
+            <td class="rz-spacer-col" width="24" style="width:24px; font-size:0; line-height:0;">&nbsp;</td>
+
+            <!-- Card 4 -->
+            <td class="rz-card-col" width="268" valign="top" style="width:268px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="background-color:#FFFFFF; border-radius:10px; overflow:hidden; border:1px solid #E6D8C3; box-shadow:0 6px 18px rgba(90,61,54,0.07);">
+                <tr>
+                  <td style="line-height:0; font-size:0; background-color:#F5EFE6;">
+                    <a href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="display:block;">
+                      <img src="assets/p-loaf.jpg" width="268" height="358" alt="Razab Glass Loaf Pans with Lids" class="rz-fluid" style="width:100%; max-width:268px; height:auto; display:block; border-top-left-radius:9px; border-top-right-radius:9px;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="rz-cap" align="left" style="padding:18px 18px 22px 18px;">
+                    <p style="margin:0 0 4px 0; font-family:'Playfair Display',Georgia,serif; font-style:italic; font-size:13px; line-height:17px; color:#C87F4E;">The Holiday Baker</p>
+                    <h3 class="rz-ct" style="margin:0 0 8px 0; min-height:48px; font-family:'Playfair Display',Georgia,serif; font-size:19px; line-height:24px; font-weight:600; color:#8F544A;">
+                      <a href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="color:#8F544A; text-decoration:none;">Glass Loaf Pans with Lids</a>
+                    </h3>
+                    <p class="rz-cd" style="margin:0 0 14px 0; min-height:54px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:12.5px; line-height:19px; color:#5A3D36;">Bake pumpkin bread, snap on the lid, and bring it warm to the table.</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 16px 0;">
+                      <tr>
+                        <td bgcolor="#F2F6F1" style="background-color:#F2F6F1; border:1px solid #C4D9C0; border-radius:12px; padding:4px 10px;">
+                          <span style="font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11px; line-height:14px; font-weight:700; color:#2F4A35; letter-spacing:0.02em;">🍂 20% OFF WITH HARVEST</span>
+                        </td>
+                      </tr>
+                    </table>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td align="center">
+                          <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="height:38px;v-text-anchor:middle;width:232px;" arcsize="14%" stroke="f" fillcolor="#8F544A">
+                            <w:anchorlock/>
+                            <center style="color:#FAF7F2;font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:bold;letter-spacing:1px;">SHOP NOW</center>
+                          </v:roundrect>
+                          <![endif]-->
+                          <!--[if !mso]><!-->
+                          <a class="rz-btn-terra" href="https://razab.com/collections/glass-loaf-pans-with-lids?utm_source=email&amp;utm_medium=newsletter&amp;utm_campaign=thanksgiving2026&amp;utm_content=p_loaf" style="display:block; width:100%; box-sizing:border-box; background-color:#8F544A; color:#FAF7F2; text-align:center; padding:11px 16px; border-radius:6px; font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:11.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; box-shadow:0 2px 6px rgba(143,84,74,0.25);">
+                            Shop Now &nbsp;→
+                          </a>
+                          <!--<![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
               </table>
             </td>
           </tr>
