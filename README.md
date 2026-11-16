@@ -22,7 +22,7 @@ This repository contains the email template for **Razab USA's Thanksgiving 2026 
 1. **Preheader:** Hidden preview text with zwnj padding (`Pull up a chair at The Harvest Table: 20% off every Razab glass container with code HARVEST...`).
 2. **Top Strip:** Deep forest banner (`Thanksgiving Sale · 20% Off · Code HARVEST`).
 3. **Masthead:** Header with Razab logo (`assets/razab-logo.png`), tagline, and navigation links.
-4. **Hero Banner:** Full-bleed Thanksgiving Sale banner (`assets/hero-thanks2.jpg`, 600×804) featuring the Thanksgiving container casserole feast, autumn harvest pumpkins and foliage, 20% discount offer, and promo code `HARVEST`.
+4. **Hero Banner:** Full-bleed Thanksgiving Sale banner (`assets/thanks-hero-3.jpg`, 600×804) featuring the steaming roast turkey in a clear glass container, autumn harvest pumpkins and foliage, 20% discount offer, and promo code `HARVEST`.
 5. **Gilded Accent Dividers:** 4px gradient separators (`#C87F4E` to `#F7CC83`).
 6. **The Feature Video:** Full-bleed interactive video (`assets/hero sec video 2.mp4` / `assets/hero-sec-video-2.mp4`, 600×338) with autoplay, loop, muted, playsinline, featuring the container opening with glowing "HURRY UP! THANKSGIVING SALE IS LIVE" rising smoke text, and high-res poster fallback (`assets/hero-video-poster.jpg`).
 7. **Brand Story:** "Feast Today. Fresh All Week." story block with three core value badges (*Freezer to oven*, *Airtight seal*, *See every leftover*).
