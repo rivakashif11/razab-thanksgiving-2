@@ -10,7 +10,7 @@ This repository contains the email template for **Razab USA's Thanksgiving 2026 
 - **Palette:** 
   - Deep Forest Greens: `#26392B`, `#2F4A35`, `#385A40`
   - Harvest Gold & Amber Accents: `#F7CC83`, `#C87F4E`, `#C9A25A`
-  - Warm Parchment & Cream Surfaces: `#FAF7F2`, `#EFE3CC`, `#FBEFD2`, `#FFFFFF`
+  - Warm Parchment & Cream Surfaces: `#FDEBCB` (matching the Hero Section parchment tone), `#EFE6D6` (outer canvas), `#F7CC83`
   - Typography Colors: Terracotta `#8F544A` (headings), Deep Chestnut `#5A3D36` (body)
 - **Typography:**
   - Headings: Playfair Display (Georgia fallback for Outlook)
@@ -19,7 +19,7 @@ This repository contains the email template for **Razab USA's Thanksgiving 2026 
 ---
 
 ## 2. Template Structure & Sections
-0. **Seamless Integrated Thanksgiving Background:** Unified 600px container (`.rz-wrap`) rendered as a single-column layout with a high-resolution feathered background image (`assets/thanksgiving-page-bg.jpg`, 1200×1040 Retina). The Thanksgiving aesthetic borders (dark wood, pumpkins, autumn foliage) blend continuously into the solid cream center (`#FAF7F2`) via a smooth 32px cosine feathering gradient. This completely eliminates any vertical gaps, seams, or dividing lines between the page content and the side borders while keeping the total width strictly at **600px**.
+0. **Seamless Integrated Thanksgiving Background:** Unified 600px container (`.rz-wrap`) rendered as a single-column layout with a high-resolution feathered background image (`assets/thanksgiving-page-bg.jpg`, 1200×1040 Retina). The Thanksgiving aesthetic borders (dark wood, pumpkins, autumn foliage) blend continuously into the solid warm cream/beige center (`#FDEBCB` from the hero section) via a smooth 32px cosine feathering gradient. This completely eliminates any vertical gaps, seams, or dividing lines between the page content and the side borders while keeping the total width strictly at **600px**. Product cards and inner sections are styled with `#FDEBCB` to create a harmonious, unified aesthetic.
 1. **Preheader:** Hidden preview text with zwnj padding (`Pull up a chair at The Harvest Table: 20% off every Razab glass container with code HARVEST...`).
 2. **Top Strip:** Deep forest banner (`Thanksgiving Sale · 20% Off · Code HARVEST`).
 3. **Masthead:** Header with Razab logo (`assets/razab-logo.png`), tagline, and navigation links.
